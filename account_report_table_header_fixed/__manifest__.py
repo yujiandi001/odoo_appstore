@@ -8,6 +8,7 @@
     冻结固定相关会计报表的头部thead和第一列元素，使得竖向或横向滚动的时候知道所在行和列
     """,
     'author': "zero",
+    'category': 'Accounting/Accounting',
     'version': '1.0',
     'license': 'LGPL-3',
     'depends': ['base', 'account_reports'],
@@ -17,6 +18,10 @@
     'qweb': [
         'static/src/xml/temp.xml',
     ],
+    'images': [
+        'static/description/main_screenshot.png',
+        'static/description/icon.png',
+               ],
     'installable': True,
     'application': False,
     'auto_install': False,

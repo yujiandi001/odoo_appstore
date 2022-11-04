@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+<!--    <t t-extend="account_reports.main_template">-->
+<!--        <t t-jquery=".table-responsive" t-operation="attributes">-->
+<!--            <attribute name="class" value="account-report-table-responsive"/>-->
+<!--        </t>-->
+<!--    </t>-->
+</templates>
+

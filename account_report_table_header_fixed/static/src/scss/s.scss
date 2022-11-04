@@ -1,0 +1,45 @@
+.o_account_reports_page {
+  .o_account_coa_column_contrast_coa_ext td:nth-child(2n),
+  td.o_account_coa_column_contrast_coa_ext:nth-child(2n), {
+    background-color: #F5F5F5;
+  }
+
+  .b_c_flag {
+    background-color: #F5F5F5;
+  }
+}
+//冻结表头和第一列
+.o_account_reports_table {
+  thead {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #F5F5F5;
+  }
+
+  thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: #F5F5F5;
+  }
+
+  tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background: #F5F5F5;
+    z-index: 1;
+  }
+}
+
+.o_account_reports_page {
+  .o_account_reports_table {
+    .o_account_reports_header_hierarchy th:not(:first-child) {
+      //border: 1px solid #e6e6e6;去掉边框
+      border: none;
+      border-collapse: separate;
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/*针对会计报表重新定义一个样式overflow-x*/
+.account-report-table-responsive{
+  display: block;
+  width: 100%;
+  overflow-x: initial;
+  -webkit-overflow-scrolling: touch;
+}

@@ -11,7 +11,7 @@
     'category': 'Accounting/Accounting',
     'version': '1.0',
     'license': 'OPL-1',
-    'price': 9.80,
+    'price': 1.00,
     'depends': ['base', 'account_reports'],
     'data': [
         'views/templates.xml',

@@ -9,7 +9,7 @@
     """,
     'author': "zero",
     'version': '1.0',
-    'license': 'AGPL-3',
+    'license': 'LGPL-3',
     'depends': ['base', 'account_reports'],
     'data': [
         'views/templates.xml',

@@ -11,6 +11,7 @@
     'category': 'Accounting/Accounting',
     'version': '1.0',
     'license': 'OPL-1',
+    'price': 9.80,
     'depends': ['base', 'account_reports'],
     'data': [
         'views/templates.xml',
@@ -21,7 +22,7 @@
     'images': [
         'static/description/main_screenshot.png',
         'static/description/icon.png',
-               ],
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,

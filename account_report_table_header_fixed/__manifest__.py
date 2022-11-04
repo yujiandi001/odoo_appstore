@@ -10,7 +10,7 @@
     'author': "zero",
     'category': 'Accounting/Accounting',
     'version': '1.0',
-    'license': 'LGPL-3',
+    'license': 'OPL-1',
     'depends': ['base', 'account_reports'],
     'data': [
         'views/templates.xml',

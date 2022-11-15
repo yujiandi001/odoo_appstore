@@ -8,6 +8,7 @@
     background-color: #F5F5F5;
   }
 }
+
 //冻结表头和第一列
 .o_account_reports_table {
   thead {
@@ -30,6 +31,21 @@
     background: #F5F5F5;
     z-index: 1;
   }
+}
+//用于js触发，点击下拉时，调整当前td的层级
+tr.account_report_z_index_up {
+  td:first-child {
+    z-index: 2;
+    //background-color: #0fb2fc;
+  }
+}
+
+/*针对会计报表重新定义一个样式overflow-x*/
+.account-report-table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: initial;
+  -webkit-overflow-scrolling: touch;
 }
 
 .o_account_reports_page {

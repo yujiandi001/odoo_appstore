@@ -3,11 +3,14 @@
     <data>
         <template id="account_report_style_backend" inherit_id="web.assets_backend" active="True">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" type="text/scss" href="/account_report_table_header_fixed/static/src/scss/s.scss"/>
+                <link rel="stylesheet" type="text/scss"
+                      href="/account_report_table_header_fixed/static/src/scss/s.scss"/>
                 <link rel="stylesheet" href="/account_report_table_header_fixed/static/src/css/css.css"/>
+                <script type="text/javascript" src="/account_report_table_header_fixed/static/src/js/account_reports.js"/>
             </xpath>
         </template>
     </data>
+
     <data>
         <!--        <template id="account_report_main_template" inherit_id="account_reports.main_template" primary="True">-->
         <!--            <xpath expr="//div[hasclass('table-responsive')]" position="attributes">-->
@@ -36,7 +39,7 @@
                         <t t-call="account_reports.filter_info_template"/>
                     </div>
                     <div class="o_account_reports_summary"/>
-<!--                    原来样式：table-responsive 修改为：account-report-table-responsive-->
+                    <!--                    原来样式：table-responsive 修改为：account-report-table-responsive-->
                     <div class="account-report-table-responsive">
                         <table class="o_account_reports_table table-hover">
                             <t t-call="{{model._get_templates()['main_table_header_template']}}"/>
